@@ -71,92 +71,168 @@ The methods and tools for creating, analyzing, and retrieving files from a disk 
 
 ### 1.6(c) Creating Digital Evidence Forensics
 
-The following steps outline the process of creating digital forensic evidence using industry-standard tools. Each step includes space for screenshots that demonstrate the procedure.
+Some procedures and goals must be met for this investigation to successfully pursue the culprit. Based on this case study, the use of an external USB drive from the suspect, including a Virtual machine, to carry out this investigation.  
+
+The methods and tools for creating, analyzing, and retrieving files from a disk image of the suspect drive are listed below (Chandel, 2020).
 
 ---
 
-#### Step 1 – Launch the Forensic Tool (FTK Imager)
-Open **FTK Imager** to begin creating a forensic image of the suspect drive or device.
+#### Step 1 – Created a virtual machine
+Created a virtual machine to carry out this analysis due to a safe environment for testing and not comprising or modifying content in the suspect Host computer.  
 
 📌 *Screenshot Placeholder:*  
-![Step 1 – FTK Imager Launch](/images/step1_ftk_launch.png)
+![Step 1 – Virtual Machine Created](/images/step1_vm.png)
 
 ---
 
-#### Step 2 – Select Evidence Acquisition Option
-Choose the option **"Create Disk Image"** from the File menu. This ensures a forensic bit-by-bit copy of the source media.
+#### Step 2 – Use of external hard drive
+Having an external hard drive to save the contents on the suspect drive is due to insufficient space to create extra VHD in the VMware machine, avoiding damage or corrupt file while going through the process.  
 
 📌 *Screenshot Placeholder:*  
-![Step 2 – Create Disk Image Option](/images/step2_create_image.png)
+![Step 2 – External Hard Drive](/images/step2_extdrive.png)
 
 ---
 
-#### Step 3 – Choose Evidence Source
-Select the source drive, removable media, or image file that you intend to investigate.
+#### Step 3 – Creating the disk image for the investigation
+After implementing the necessary tools into the virtual box machine, the next is to connect the suspect drive - Sandisk USB 2.0, which was used to carry out the cyber-crime.  
 
 📌 *Screenshot Placeholder:*  
-![Step 3 – Select Evidence Source](/images/step3_select_source.png)
+![Step 3 – Connect Suspect Drive](/images/step3_suspectdrive.png)
 
 ---
 
-#### Step 4 – Configure Image Destination and Format
-Specify the output location for the forensic image and select the image type (e.g., **E01, Raw (dd)**).  
-Include a descriptive case identifier (case number, examiner name, description).
+#### Step 4 – Checking the logging process
+I am using the Microsoft Management Console (MMC) to give the overview of the actual disk available in the virtual machine.  
 
 📌 *Screenshot Placeholder:*  
-![Step 4 – Configure Image Format](/images/step4_configure_format.png)
+![Step 4 – MMC Disk Overview](/images/step4_mmc.png)
 
 ---
 
-#### Step 5 – Add Case Metadata
-Provide metadata such as:  
-- Case number  
-- Examiner name  
-- Evidence description  
-
-This helps maintain proper **chain of custody**.
+#### Step 5 – Launch FTK Imager
+Following launch, the FTK imager 4.7.1.2 latest version, to start the investigation.  
 
 📌 *Screenshot Placeholder:*  
-![Step 5 – Add Case Metadata](/images/step5_case_metadata.png)
+![Step 5 – Launch FTK Imager](/images/step5_ftk.png)
 
 ---
 
-#### Step 6 – Verify with Hash Values
-Select the option to generate **hash values (MD5/SHA1)** during acquisition.  
-This guarantees integrity and ensures the image matches the original media.
+#### Step 6 – Create disk image in FTK
+After installing the FTK imager, create an image, navigate to the file button, and select the **Create Disk Image** option from the drop-down menu.  
 
 📌 *Screenshot Placeholder:*  
-![Step 6 – Hash Verification](/images/step6_hash_verification.png)
+![Step 6 – Create Disk Image Option](/images/step6_createimage.png)
 
 ---
 
-#### Step 7 – Begin Acquisition
-Start the acquisition process. The forensic tool creates a **bit-by-bit copy** of the suspect media and stores it as a forensic image file.
+#### Step 7 – Select evidence type
+After selecting Create a disk image, it will prompt you to choose the type of evidence, such as physical drive, logical drive, etc., and once you have done so, hit the following button to proceed with the process.  
 
 📌 *Screenshot Placeholder:*  
-![Step 7 – Acquisition Process](/images/step7_acquisition.png)
+![Step 7 – Select Evidence Type](/images/step7_evidencetype.png)
 
 ---
 
-#### Step 8 – Validate the Image
-Once acquisition completes, validate the forensic image by comparing its hash value with the original source hash.  
-This confirms the evidence was preserved without alteration.
+#### Step 8 – Choose drive
+It will now prompt you for the drive you want to create the image. Choose the appropriate drive and press the Finish button.  
 
 📌 *Screenshot Placeholder:*  
-![Step 8 – Validate Forensic Image](/images/step8_validate.png)
+![Step 8 – Choose Drive](/images/step8_drive.png)
 
 ---
 
-#### Step 9 – Document the Process
-Record details of the acquisition in the forensic report, including:  
-- Tool used  
-- Source and destination details  
-- Date and time  
-- Hash values  
+#### Step 9 – Select image type
+Next, choose the image type you desire, such as raw, E01, etc., then select Next from the menu.  
 
 📌 *Screenshot Placeholder:*  
-![Step 9 – Documentation Example](/images/step9_documentation.png)
+![Step 9 – Image Type](/images/step9_imagetype.png)
 
 ---
 
-> These steps demonstrate my ability to **create, preserve, and validate digital evidence** in line with forensic standards, ensuring the evidence remains legally admissible.
+#### Step 10 – Enter case information
+Further, you will be prompted for information regarding the image, such as case number, evidence number, unique description, examiner, and notes about the evidence or investigation. Click on Next.  
+
+📌 *Screenshot Placeholder:*  
+![Step 10 – Case Info](/images/step10_caseinfo.png)
+
+---
+
+#### Step 11 – Select destination folder
+After this, it will ask you for the destination folder, i.e., where you want your image to be saved, along with its name and fragment size.  
+
+📌 *Screenshot Placeholder:*  
+![Step 11 – Destination Folder](/images/step11_destination.png)
+
+---
+
+#### Step 12 – Start acquisition
+Once the destination folder has been completed, click the Finish button.  
+The next step is to click the start button after adding the destination.  
+
+📌 *Screenshot Placeholder:*  
+![Step 12 – Start Acquisition](/images/step12_start.png)
+
+---
+
+#### Step 13 – Acquisition process
+It starts initializing the process and informs about the elapsed time, estimated time left, image source, destination, and status.  
+The estimated time to create the disk image of the suspect was about 13 minutes.  
+
+📌 *Screenshot Placeholder:*  
+![Step 13 – Acquisition Process](/images/step13_process.png)
+
+---
+
+#### Step 14 – Metadata and hash values
+The below shows the metadata file containing the disk image’s hash values.  
+To verify the results and determine whether the disc image is the same as the suspect drive, the FTK imager automatically produces the disc images and validates the MD5 and SHA1 hash values.  
+
+📌 *Screenshot Placeholder:*  
+![Step 14 – Metadata and Hashes](/images/step14_metadata.png)
+
+---
+
+#### Step 15 – Disk image output
+The disk image contains the E01 and the text file containing the metadata stored in the preferred location; the external hard drive is included for this analysis.  
+
+📌 *Screenshot Placeholder:*  
+![Step 15 – Disk Image Output](/images/step15_diskimage.png)
+
+---
+
+#### Step 16 – Analyzing the disk image
+Once the disk image is created next, add the image file to see the evidence.  
+After creating the disk image, we click on the disk image file.  
+Click finish after uploading the image file from the external hard drive named **case exhibit 2376TH** folder.  
+
+📌 *Screenshot Placeholder:*  
+![Step 16 – Analyze Disk Image](/images/step16_analyze.png)
+
+---
+
+#### Step 17 – Case description file
+We can see the case file name and the hard disk target ESD -USB(FAT32) with its root and branches of folders in the drive. The folder with the cross indicates that the data has been deleted.  
+
+📌 *Screenshot Placeholder:*  
+![Step 17 – Case File Description](/images/step17_casefile.png)
+
+---
+
+#### Step 18 – Deleted evidence and exports
+You can find the evidence besides the evidence tree showing the files deleted from the suspect drive. We can see both the voting results sheet and emails; the emails are what the suspect used to communicate with his accomplices, but we intend to see the full content after the export.  
+
+The files were exported from the disk image.  
+File exported to the Case exhibition folders.  
+This shows that the files were exported successfully.  
+
+📌 *Screenshot Placeholder:*  
+![Step 18 – Export Evidence](/images/step18_export.png)
+
+---
+
+#### Step 19 – Reviewing exported evidence
+Since the files have been exported to the saved external hard drive, we can fully view the evidence to see the contents of the folders.  
+I checked the properties and details of this investigation from the extraction evidence tree, which would be tender in court for the suspect’s conviction.  
+
+📌 *Screenshot Placeholder:*  
+![Step 19 – Review Exported Evidence](/images/step19_review.png)
