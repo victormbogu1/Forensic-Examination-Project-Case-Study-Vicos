@@ -81,7 +81,7 @@ The methods and tools for creating, analyzing, and retrieving files from a disk 
 Created a virtual machine to carry out this analysis due to a safe environment for testing and not comprising or modifying content in the suspect Host computer.  
 
 📌 *Screenshot Placeholder:*  
-![Step 1 – Virtual Machine Created](/images/step1_vm.png)
+![Step 1 – Virtual Machine Created](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202023-07-03%20141840.png)
 
 ---
 
@@ -89,7 +89,7 @@ Created a virtual machine to carry out this analysis due to a safe environment f
 Having an external hard drive to save the contents on the suspect drive is due to insufficient space to create extra VHD in the VMware machine, avoiding damage or corrupt file while going through the process.  
 
 📌 *Screenshot Placeholder:*  
-![Step 2 – External Hard Drive](/images/step2_extdrive.png)
+![Step 2 – External Hard Drive](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/WhatsApp%20Image%202023-07-03%20at%2015.07.01.jpeg)
 
 ---
 
@@ -97,15 +97,16 @@ Having an external hard drive to save the contents on the suspect drive is due t
 After implementing the necessary tools into the virtual box machine, the next is to connect the suspect drive - Sandisk USB 2.0, which was used to carry out the cyber-crime.  
 
 📌 *Screenshot Placeholder:*  
-![Step 3 – Connect Suspect Drive](/images/step3_suspectdrive.png)
-
+![Step 3 – Connect Suspect Drive](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202025-09-26%20185539.jpg)
 ---
 
 #### Step 4 – Checking the logging process
 I am using the Microsoft Management Console (MMC) to give the overview of the actual disk available in the virtual machine.  
 
 📌 *Screenshot Placeholder:*  
-![Step 4 – MMC Disk Overview](/images/step4_mmc.png)
+![Step 4 – MMC Disk Overview](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-15%20111356.png)
+
+![Step 4 – MMC Disk Overview](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202025-09-26%20190110.jpg)
 
 ---
 
@@ -113,7 +114,7 @@ I am using the Microsoft Management Console (MMC) to give the overview of the ac
 Following launch, the FTK imager 4.7.1.2 latest version, to start the investigation.  
 
 📌 *Screenshot Placeholder:*  
-![Step 5 – Launch FTK Imager](/images/step5_ftk.png)
+![Step 5 – Launch FTK Imager](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-02%20135140.png)
 
 ---
 
@@ -121,7 +122,7 @@ Following launch, the FTK imager 4.7.1.2 latest version, to start the investigat
 After installing the FTK imager, create an image, navigate to the file button, and select the **Create Disk Image** option from the drop-down menu.  
 
 📌 *Screenshot Placeholder:*  
-![Step 6 – Create Disk Image Option](/images/step6_createimage.png)
+![Step 6 – Create Disk Image Option](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202025-09-26%20190541.jpg)
 
 ---
 
@@ -129,7 +130,7 @@ After installing the FTK imager, create an image, navigate to the file button, a
 After selecting Create a disk image, it will prompt you to choose the type of evidence, such as physical drive, logical drive, etc., and once you have done so, hit the following button to proceed with the process.  
 
 📌 *Screenshot Placeholder:*  
-![Step 7 – Select Evidence Type](/images/step7_evidencetype.png)
+![Step 7 – Select Evidence Type](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-02%20185711.png)
 
 ---
 
@@ -137,7 +138,7 @@ After selecting Create a disk image, it will prompt you to choose the type of ev
 It will now prompt you for the drive you want to create the image. Choose the appropriate drive and press the Finish button.  
 
 📌 *Screenshot Placeholder:*  
-![Step 8 – Choose Drive](/images/step8_drive.png)
+![Step 8 – Choose Drive](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20003604.png)
 
 ---
 
@@ -145,7 +146,7 @@ It will now prompt you for the drive you want to create the image. Choose the ap
 Next, choose the image type you desire, such as raw, E01, etc., then select Next from the menu.  
 
 📌 *Screenshot Placeholder:*  
-![Step 9 – Image Type](/images/step9_imagetype.png)
+![Step 9 – Image Type](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-02%20204654.png)
 
 ---
 
@@ -153,7 +154,7 @@ Next, choose the image type you desire, such as raw, E01, etc., then select Next
 Further, you will be prompted for information regarding the image, such as case number, evidence number, unique description, examiner, and notes about the evidence or investigation. Click on Next.  
 
 📌 *Screenshot Placeholder:*  
-![Step 10 – Case Info](/images/step10_caseinfo.png)
+![Step 10 – Case Info](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20004134.png)
 
 ---
 
@@ -161,16 +162,18 @@ Further, you will be prompted for information regarding the image, such as case 
 After this, it will ask you for the destination folder, i.e., where you want your image to be saved, along with its name and fragment size.  
 
 📌 *Screenshot Placeholder:*  
-![Step 11 – Destination Folder](/images/step11_destination.png)
+![Step 11 – Destination Folder](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20004440.png)
 
 ---
 
 #### Step 12 – Start acquisition
 Once the destination folder has been completed, click the Finish button.  
+![Step 11 – Destination Folder](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20004623.png)
+
 The next step is to click the start button after adding the destination.  
 
 📌 *Screenshot Placeholder:*  
-![Step 12 – Start Acquisition](/images/step12_start.png)
+![Step 12 – Start Acquisition](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20004731.png)
 
 ---
 
@@ -179,7 +182,8 @@ It starts initializing the process and informs about the elapsed time, estimated
 The estimated time to create the disk image of the suspect was about 13 minutes.  
 
 📌 *Screenshot Placeholder:*  
-![Step 13 – Acquisition Process](/images/step13_process.png)
+![Step 13 – Acquisition Process](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20004936.png)
+![Step 13 – Acquisition Process](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20011237.png)
 
 ---
 
@@ -188,7 +192,7 @@ The below shows the metadata file containing the disk image’s hash values.
 To verify the results and determine whether the disc image is the same as the suspect drive, the FTK imager automatically produces the disc images and validates the MD5 and SHA1 hash values.  
 
 📌 *Screenshot Placeholder:*  
-![Step 14 – Metadata and Hashes](/images/step14_metadata.png)
+![Step 14 – Metadata and Hashes](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20012418.png)
 
 ---
 
@@ -196,7 +200,7 @@ To verify the results and determine whether the disc image is the same as the su
 The disk image contains the E01 and the text file containing the metadata stored in the preferred location; the external hard drive is included for this analysis.  
 
 📌 *Screenshot Placeholder:*  
-![Step 15 – Disk Image Output](/images/step15_diskimage.png)
+![Step 15 – Disk Image Output](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202025-09-26%20192005.jpg)
 
 ---
 
@@ -206,15 +210,15 @@ After creating the disk image, we click on the disk image file.
 Click finish after uploading the image file from the external hard drive named **case exhibit 2376TH** folder.  
 
 📌 *Screenshot Placeholder:*  
-![Step 16 – Analyze Disk Image](/images/step16_analyze.png)
-
----
+![Step 16 – Analyze Disk Image](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20014025.png)
+![Step 16 – Analyze Disk Image](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20014311.png)
+![Step 16 – Analyze Disk Image](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202025-09-26%20192253.jpg)
 
 #### Step 17 – Case description file
 We can see the case file name and the hard disk target ESD -USB(FAT32) with its root and branches of folders in the drive. The folder with the cross indicates that the data has been deleted.  
 
 📌 *Screenshot Placeholder:*  
-![Step 17 – Case File Description](/images/step17_casefile.png)
+![Step 17 – Case File Description](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20014751.png)
 
 ---
 
@@ -226,7 +230,10 @@ File exported to the Case exhibition folders.
 This shows that the files were exported successfully.  
 
 📌 *Screenshot Placeholder:*  
-![Step 18 – Export Evidence](/images/step18_export.png)
+![Step 18 – Export Evidence](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20015143.png)
+![Step 18 – Export Evidence](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20015557.png)
+![Step 18 – Export Evidence](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20015654.png)
+![Step 18 – Export Evidence](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20015923.png)
 
 ---
 
@@ -235,4 +242,5 @@ Since the files have been exported to the saved external hard drive, we can full
 I checked the properties and details of this investigation from the extraction evidence tree, which would be tender in court for the suspect’s conviction.  
 
 📌 *Screenshot Placeholder:*  
-![Step 19 – Review Exported Evidence](/images/step19_review.png)
+![Step 19 – Review Exported Evidence](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202025-09-26%20192912.jpg)
+![Step 19 – Review Exported Evidence](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20021029.png)
