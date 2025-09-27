@@ -1,6 +1,6 @@
 # Forensic-Examination-Project – Case Study: Vicos  
 
-## Part 1: Digital Forensics Case Investigation  
+## Digital Forensics Case Investigation  
 
 Developments in the modern world have shown how simple it is to acquire all sorts of information through the use of computers. Social networking services, for example, have become a fundamental element of people’s lives, connecting individuals, sharing updates globally, and providing useful information. Unfortunately, this information can also be exploited for **criminal activity**.  
 
@@ -175,7 +175,7 @@ This structured approach ensured that all evidence remained intact, verifiable, 
 
 ---
 
-## 1.6(c) Creating Digital Evidence Forensics – Step by Step
+## 1.6 Creating Digital Evidence Forensics – Step by Step
 
 #### Step 1 – Created a virtual machine
 A virtual machine was created to conduct this analysis in a safe environment, ensuring that the suspect’s host computer was not modified or compromised. 
