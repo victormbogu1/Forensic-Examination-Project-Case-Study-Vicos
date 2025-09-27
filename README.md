@@ -175,7 +175,7 @@ This structured approach ensured that all evidence remained intact, verifiable, 
 
 ---
 
-## 1.6 Creating Digital Evidence Forensics – Step by Step
+### 1.6 Creating Digital Evidence Forensics – Step by Step
 
 #### Step 1 – Created a virtual machine
 A virtual machine was created to conduct this analysis in a safe environment, ensuring that the suspect’s host computer was not modified or compromised. 
