@@ -1,28 +1,102 @@
-# Forensic-Examination-Project--Case-Study-Mickins
+# Forensic-Examination-Project – Case Study: Vicos  
 
-## 1.0. Part 1 
+## Part 1: Digital Forensics Case Investigation  
 
-In this section, as a Forensic Investigator and Associate of Vericom Forensics, we would assess Mickins Construction Company's IT security environment, provide the best digital forensics and investigative services, and produce a technical report with detailed instructions that would assist law enforcement prosecutors in the event of a computerized incident. In addition, a case study outlines the entire process, from gathering evidence to presenting findings in court. 
+Developments in the modern world have shown how simple it is to acquire all sorts of information through the use of computers. Social networking services, for example, have become a fundamental element of people’s lives — connecting individuals, sharing updates globally, and providing useful information. Unfortunately, this information can also be exploited for **criminal activity**.  
 
- 
+In response, law enforcement agencies, financial institutions, and private organizations increasingly rely on **computer forensics** to investigate crimes. From **network security breaches** to **fraud** to **illegal digital content**, the common factor is the need to **prove that electronic media contains incriminating evidence**. Supportive forensic examination procedures and protocols must be in place to ensure that evidence is admissible in court.  
 
-## 1.1. Introduction 
+---
 
-The Mickins Construction Company was founded by Calos Coms in the UK and established in 2013. Mickins Construction Company is a British engineering company that specializes in bridge construction. The firm is responsible for some of the significant bridge constructions in the UK, including Millennium Bridge, and it specializes in supplying bridges to more than 110 countries. The UK’s Export Credit Guarantee Department (ECGD) frequently underwrites the company's contracts with foreign governments. 
+### Case Study Role  
 
- 
+For this case study, I take the role of a **Digital Forensics Investigator** at **Emburg Forensics UK**, established in 2017.  
 
-## 1.2. Purpose of the Report 
+The organisation specializes in:  
+- Delivering the **best digital forensics and investigation services** in the UK.  
+- Working closely with **solicitors, lawyers, law enforcement agencies, councils**, and other professional bodies.  
+- Providing services across multiple sectors, with a focus on **digital evidence recovery and analysis**.  
 
-This report aims to assist Mickins Construction Company in preparing for a productive digital forensic investigation. The report analyses critical elements of fraudulent behavior, utilizes the gathered information for the study, and presents findings to the court. Furthermore, it emphasizes the importance of adhering to accreditation standards and maintaining the necessary integrity for legal proceedings. 
+My personal specialism in this case study:  
+- Recovery and analysis of **digital evidence** from:  
+  - Computer hard drives  
+  - Data storage devices  
+  - Tablets and smartphones  
 
-## 1.3. IT Security Management Policy at Mickins 
+---
 
-Due to its involvement in data at Mickins construction company in the UK, handling essential data and regulations is very important. Information governance frameworks include the integrity, confidentiality, and availability of data. Mickins Construction uses ISO 27001, an anal standard framework for most businesses and IT organizations. To protect this information, more and more companies are becoming ISO 27001 certified in processing personal data and related matters in compliance with the Cybersecurity Framework UK, which the GDPR strongly influenced. 
+### Key Responsibilities  
 
-The UK organization's IT Security Management Policy typically comprises several vital components. These policies must align with international standards like ISO/IEC 27001, a globally recognized standard offering ISMS Framework. An ISMS framework provides a structure for managing information security. The ISMS standard offers a methodical framework for ensuring the continued safety of critical enterprise data. 
+As a Digital Forensics Investigator, my responsibilities include:  
 
-Mickins Construction company has also improved and advanced technology to protect the data from cyber-attacks by investing in a well-trained and experienced workforce—training and retraining are vital to mitigating cybersecurity risks (IT GOVERNANCE, 2018). 
+1. **Good Practice Guide for Digital Evidence**  
+   - Provide professional advice to staff on best practices and procedures for investigating digital and electronic devices.  
+
+2. **Initial Risk Assessment**  
+   - Ensure that devices submitted for examination are safe to handle and won’t compromise other systems.  
+
+3. **Forensic Data Capture and Recovery**  
+   - Use forensic software and hardware to capture, retrieve, and extract data from mobile phones and portable devices.  
+   - Maintain a complete log of all processes used.  
+   - Where necessary, photograph or video record each step.  
+
+4. **Digital Forensic Investigations**  
+   - Conduct thorough, focused investigations on computers and other devices (including smartphones).  
+   - Maintain a **full log of steps and processes** undertaken.  
+
+5. **Developing Forensic Processes**  
+   - Continuously develop new forensic techniques in line with advancing technologies.  
+   - Ensure all processes meet **accreditation standards** and maintain **integrity for court**.  
+
+---
+
+> This case study demonstrates not only the **technical process of acquiring and analyzing evidence**, but also my ability to apply **professional forensic standards** to ensure the results are **credible, reliable, and legally admissible**.  
+
+---
+
+## 1.0 Case Study Overview  
+
+This project is a **digital forensics case study** demonstrating how I, as a **Forensic Investigator**, use professional tools to examine compromised systems, recover deleted evidence, and prepare findings for presentation in court.  
+
+The case involves **Vicos Construction Company**, where allegations of **election fraud** arose during an internal chairman election using the **Bimodal Voters Authentication System (BVAS)**. I showcase step-by-step how forensic tools, primarily **FTK Imager**, were used to:  
+
+- Acquire and preserve evidence without tampering.  
+- Recover deleted files from a suspect USB drive.  
+- Verify evidence integrity using hash values.  
+- Document findings for law enforcement and courtroom presentation.  
+
+This project is designed to illustrate my **hands-on forensic capabilities**, from evidence acquisition to final courtroom-ready documentation.  
+
+---
+
+## 1.1 Introduction  
+
+Vicos Construction Company, established in 2013, is a British engineering firm specializing in large-scale bridge construction across the UK and internationally. Recently, an internal election to determine the company’s next chairman raised allegations of **result manipulation** and **evidence tampering**.  
+
+As part of this investigation, the suspected systems—including a **USB device linked to the director in charge**—were submitted for forensic examination to determine whether evidence of fraud and data manipulation could be recovered.  
+
+---
+
+## 1.2 Purpose of the Report  
+
+The purpose of this case study is to:  
+- Demonstrate the **forensic examination process** using industry-standard tools.  
+- Provide evidence collection, preservation, and analysis that could stand in court.  
+- Showcase adherence to **ISO 27001 security standards** and **forensic best practices**.  
+- Highlight my ability to present findings clearly for law enforcement and legal teams.  
+
+---
+
+## 1.3 IT Security Management Policy at Vicos (Summary)  
+
+Vicos Construction recognizes the importance of protecting sensitive business and client data. To strengthen its security posture:  
+
+- The company aligns its **policies with ISO/IEC 27001**, a global standard for Information Security Management Systems (ISMS).  
+- Core principles include **integrity, confidentiality, and availability of data**.  
+- Staff undergo **continuous training** to stay updated on cybersecurity risks and best practices.  
+- Policies are structured to comply with the **UK Cybersecurity Framework** and **GDPR**.  
+
+To enforce these policies in investigations, digital forensic investigators follow structured responsibilities (see table below).
 
 The following information details the complete investigation procedure for digital evidence at Vericom Forensics UK organization. It encompasses the assigned tasks, their importance, and the steps required to accomplish them (E - council, 2023). 
 
@@ -47,38 +121,64 @@ The following information details the complete investigation procedure for digit
 > This structured framework demonstrates my **hands-on knowledge and practical experience** as a Digital Forensic Investigator, highlighting my ability to conduct end-to-end forensic investigations in line with professional and legal standards.
 
 
-Conclusion 
+### Conclusion  
 
-Knowing the Value of Digital Evidence is vital to organizations. An In-depth Guide to Appropriate Evidence Handling in Mickins will hasten the investigation. The primary objective of this document is to underscore the crucial value of digital evidence and shed light on the prevalent oversight observed in numerous organizations. Often, available evidence proves inadequate or needs more appropriate handling protocols when it becomes necessary to establish the veracity of charges related to fraudulent transactions or malicious activities. By offering a comprehensive manual on proper evidence handling within Mickins Company, this paper aims to streamline the process of prosecuting attackers, ultimately facilitating law enforcement agencies in achieving favorable outcomes. 
+Understanding the **value of digital evidence** is critical for organizations. Many investigations fail because evidence is either inadequate or improperly handled. By providing Vicos with a clear framework for evidence handling, this case study highlights how organizations can:  
 
-1.4. A) Case Background 
+- Preserve the integrity of digital evidence.  
+- Ensure proper forensic protocols are followed.  
+- Support law enforcement in successfully prosecuting attackers.  
 
-Mickins construction firm manager John Prone has been tasked with managing the impending election among the 120 branches, including UK branches, to determine who would be the next chairman of the board of directors of Mickins construction company. The board of directors chose John for this critical position. The introduction of the Bimodal Voters Authentication System (BVAS), a computerized voting method, was advocated to improve transparency and efficiency. 
-
-However, numerous stakeholders and electoral commissions expressed concerns about purported election-related violations, notably concerning the electronic transmission of election results. Because of the issues, the presumed winner filed a lawsuit against John, who oversaw the election's behavior.  
-
-After a few court proceedings, access was granted to investigate the Bimodal Voters Authentication System (BVAS). There was clear evidence that the director manipulated and deleted the results of the presumed winner, and this was because he succumbed to being influenced by contesting oppositions by accepting bribes, compromising the integrity of the electoral process, and potentially jeopardizing the Mickins construction company's future. The election computer has been submitted to digital forensic examination to obtain evidence that can either incriminate or exonerate manager John Prone and his accomplices.
-
-1.5. B) Tools and techniques used to commit and investigate the Cyber-Crimes 
-
-The forensic tool used in investigating the suspect fraudulent act was Access Data Forensic Toolkit (FTK) Imager 4.7.1 Version. This FTK imager was used to create a disk image, conduct analysis, and recover files of the disk image from the suspect drive. A sound forensic practice is to acquire copies (prints) of the affected system’s data and operate on those copies to aid in this process. Further, the FTK tool calculates MD5 and SHA1 hash values and can verify that the integrity of the data image is consistent with the created forensic image. Access Data Forensic Toolkit is a standalone disk imaging software known as FTK Imager, one of the most admired software suites available to digital forensic professionals (Holt et al., 2022). 
-
-1.6. c) Creating digital evidence forensics 
-
-Some procedures and goals must be met for this investigation to successfully pursue the culprit. Based on this case study, the use of an external USB drive from the suspect, including a Virtual machine, to carry out this investigation. 
-The methods and tools for creating, analyzing, and retrieving files from a disk image of the suspect drive are listed below (Chandel, 2020). 
-
-
-### 1.6(c) Creating Digital Evidence Forensics
-
-Some procedures and goals must be met for this investigation to successfully pursue the culprit. Based on this case study, the use of an external USB drive from the suspect, including a Virtual machine, to carry out this investigation.  
-
-The methods and tools for creating, analyzing, and retrieving files from a disk image of the suspect drive are listed below (Chandel, 2020).
+A comprehensive evidence handling process ensures that digital forensics contributes directly to achieving favorable legal outcomes.  
 
 ---
 
+## 1.4 Case Background  
+
+Vicos Construction manager **John Prone** was tasked with overseeing an election among the company’s 120 branches to appoint the next chairman of the board. To improve transparency, the company introduced the **Bimodal Voter Authentication System (BVAS)**, a computerized voting method.  
+
+However, stakeholders soon raised concerns about irregularities in the electronic transmission of results. The presumed winner of the election filed a lawsuit against John, alleging manipulation.  
+
+Following court approval, the BVAS system was submitted for forensic investigation. Evidence suggested that John Prone **deleted and manipulated election results** after accepting bribes from opposing candidates. This compromise of electoral integrity threatened the future of Vicos Construction.  
+
+The suspect’s computer and USB device were seized for forensic examination to determine whether the allegations could be substantiated.  
+
+---
+
+## 1.5 Tools and Techniques Used  
+
+The investigation relied primarily on **AccessData Forensic Toolkit (FTK) Imager 4.7.1**.  
+
+- **Purpose of FTK Imager**  
+  - Create a forensic disk image of the suspect USB drive.  
+  - Conduct analysis and recover deleted files.  
+  - Generate MD5 and SHA1 hash values to validate evidence integrity.  
+
+- **Best Practice**  
+  Forensic procedures were carried out on **copies of the data** rather than the original evidence, ensuring the original media remained unaltered.  
+
+FTK Imager is a widely recognized tool in digital forensics, trusted for its ability to preserve and validate evidence in a court-admissible manner.  
+
+---
+
+## 1.6 Creating Digital Evidence Forensics  
+
+To successfully pursue this investigation, a **virtual machine** was used to create a safe testing environment, avoiding any modification of the suspect’s host computer. An **external USB drive** was also employed to store forensic images, preventing file corruption and ensuring sufficient storage space.  
+
+The process involved:  
+- Preparing the virtual environment.  
+- Connecting the suspect’s USB (SanDisk 2.0).  
+- Creating and validating a forensic disk image.  
+- Recovering and analyzing deleted files.  
+
+This structured approach ensured that all evidence remained intact, verifiable, and ready for courtroom presentation.  
+
+---
+
+## 1.6(c) Creating Digital Evidence Forensics – Step by Step
+
 #### Step 1 – Created a virtual machine
-Created a virtual machine to carry out this analysis due to a safe environment for testing and not comprising or modifying content in the suspect Host computer.  
+A virtual machine was created to conduct this analysis in a safe environment, ensuring that the suspect’s host computer was not modified or compromised. 
 
 📌 *Screenshot Placeholder:*  
 ![Step 1 – Virtual Machine Created](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202023-07-03%20141840.png)
@@ -86,7 +186,7 @@ Created a virtual machine to carry out this analysis due to a safe environment f
 ---
 
 #### Step 2 – Use of external hard drive
-Having an external hard drive to save the contents on the suspect drive is due to insufficient space to create extra VHD in the VMware machine, avoiding damage or corrupt file while going through the process.  
+An external hard drive was connected to store the suspect drive’s contents. This was necessary due to insufficient space to create an additional VHD in VMware and to avoid corruption or damage to files during the process.  
 
 📌 *Screenshot Placeholder:*  
 ![Step 2 – External Hard Drive](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/WhatsApp%20Image%202023-07-03%20at%2015.07.01.jpeg)
@@ -94,14 +194,14 @@ Having an external hard drive to save the contents on the suspect drive is due t
 ---
 
 #### Step 3 – Creating the disk image for the investigation
-After implementing the necessary tools into the virtual box machine, the next is to connect the suspect drive - Sandisk USB 2.0, which was used to carry out the cyber-crime.  
+With all required tools implemented in the virtual machine, the suspect’s USB drive (SanDisk USB 2.0) was connected. This device was identified as the medium used to carry out the cyber-crime.   
 
 📌 *Screenshot Placeholder:*  
 ![Step 3 – Connect Suspect Drive](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202025-09-26%20185539.jpg)
 ---
 
 #### Step 4 – Checking the logging process
-I am using the Microsoft Management Console (MMC) to give the overview of the actual disk available in the virtual machine.  
+The Microsoft Management Console (MMC) was used to display an overview of the disks available in the virtual machine. 
 
 📌 *Screenshot Placeholder:*  
 ![Step 4 – MMC Disk Overview](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-15%20111356.png)
@@ -111,7 +211,7 @@ I am using the Microsoft Management Console (MMC) to give the overview of the ac
 ---
 
 #### Step 5 – Launch FTK Imager
-Following launch, the FTK imager 4.7.1.2 latest version, to start the investigation.  
+The latest version of FTK Imager (v4.7.1.2) was launched to begin the investigation.  
 
 📌 *Screenshot Placeholder:*  
 ![Step 5 – Launch FTK Imager](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-02%20135140.png)
@@ -127,7 +227,7 @@ After installing the FTK imager, create an image, navigate to the file button, a
 ---
 
 #### Step 7 – Select evidence type
-After selecting Create a disk image, it will prompt you to choose the type of evidence, such as physical drive, logical drive, etc., and once you have done so, hit the following button to proceed with the process.  
+FTK Imager prompted for the type of evidence (e.g., physical drive, logical drive). The appropriate option was chosen to proceed.   
 
 📌 *Screenshot Placeholder:*  
 ![Step 7 – Select Evidence Type](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-02%20185711.png)
@@ -135,7 +235,7 @@ After selecting Create a disk image, it will prompt you to choose the type of ev
 ---
 
 #### Step 8 – Choose drive
-It will now prompt you for the drive you want to create the image. Choose the appropriate drive and press the Finish button.  
+The suspect’s drive was selected for imaging, and the process confirmed by clicking **Finish**.  
 
 📌 *Screenshot Placeholder:*  
 ![Step 8 – Choose Drive](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20003604.png)
@@ -143,7 +243,7 @@ It will now prompt you for the drive you want to create the image. Choose the ap
 ---
 
 #### Step 9 – Select image type
-Next, choose the image type you desire, such as raw, E01, etc., then select Next from the menu.  
+The image format (e.g., Raw, E01) was selected, then the process continued by clicking **Next**.  
 
 📌 *Screenshot Placeholder:*  
 ![Step 9 – Image Type](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-02%20204654.png)
@@ -151,7 +251,7 @@ Next, choose the image type you desire, such as raw, E01, etc., then select Next
 ---
 
 #### Step 10 – Enter case information
-Further, you will be prompted for information regarding the image, such as case number, evidence number, unique description, examiner, and notes about the evidence or investigation. Click on Next.  
+Details such as case number, evidence number, description, examiner, and investigation notes were entered.  
 
 📌 *Screenshot Placeholder:*  
 ![Step 10 – Case Info](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20004134.png)
@@ -215,7 +315,7 @@ Click finish after uploading the image file from the external hard drive named *
 ![Step 16 – Analyze Disk Image](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202025-09-26%20192253.jpg)
 
 #### Step 17 – Case description file
-We can see the case file name and the hard disk target ESD -USB(FAT32) with its root and branches of folders in the drive. The folder with the cross indicates that the data has been deleted.  
+The case file name and the hard disk target ESD -USB(FAT32) with its root and branches of folders in the drive. The folder with the cross indicates that the data has been deleted.  
 
 📌 *Screenshot Placeholder:*  
 ![Step 17 – Case File Description](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20014751.png)
@@ -223,7 +323,7 @@ We can see the case file name and the hard disk target ESD -USB(FAT32) with its 
 ---
 
 #### Step 18 – Deleted evidence and exports
-You can find the evidence besides the evidence tree showing the files deleted from the suspect drive. We can see both the voting results sheet and emails; the emails are what the suspect used to communicate with his accomplices, but we intend to see the full content after the export.  
+The evidence besides the evidence tree shows the files deleted from the suspect drive. Both the voting results sheet and emails; the emails are what the suspect used to communicate with his accomplices, but I intend to see the full content after the export.  
 
 The files were exported from the disk image.  
 File exported to the Case exhibition folders.  
@@ -244,3 +344,96 @@ I checked the properties and details of this investigation from the extraction e
 📌 *Screenshot Placeholder:*  
 ![Step 19 – Review Exported Evidence](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Screenshot%202025-09-26%20192912.jpg)
 ![Step 19 – Review Exported Evidence](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/d3c33dd3af8c373e09da28396369ced6f1bc9d88/Images/Annotation%202023-07-03%20021029.png)
+
+### 20 – Final Evidence Presented to the Courtroom
+
+| Field                          | Details                                |
+|--------------------------------|----------------------------------------|
+| **Investigator**               | Digital Forensics Investigator – Victor M |
+| **Case Number**                 | 2376TH                                |
+| **Unique Description**          | Black USB 2.0                         |
+| **Drive Model**                 | SanDisk Cruzer Blade USB Device       |
+| **Drive Serial Number**         | 4C530001260114111255                  |
+| **Drive Interface Type**        | USB                                   |
+| **Charges**                     | Electoral manipulation and corruption |
+| **Accused Person**              | Electorate director at Mickins        |
+| **Date of Query**               | 07/06/23                              |
+| **Completion Date**             | 10/07/23                              |
+| **Exhibit Presented for Analysis** | The computer of the suspect and the USB drive |
+| **Collection of Evidence For**  | Retrieving deleted files for investigation |
+
+---
+
+#### Paper Trail (Chain of Custody)
+
+| DATE      | FROM             | TO             | SIGNATURE   |
+|-----------|-----------------|----------------|-------------|
+| 06/06/23  | Cyril Plot (Law Enforcement) | Don Tjakes |   |
+| 07/05/23  | Law Enforcement | Victor M       | Victor MM   |
+| 10/07/23  | Victor M        | Law Enforcement | Don Tjakes |
+
+---
+
+**Conclusion**  
+Having the integrity of evidence is why the above custody chain is vital — it shows the transfer, collection, and control sequence process during this investigation.  
+
+---
+
+### 21 – Details of the Analysis
+
+During this investigation, the **FTK imaging tool** was used to create a disk image of the file due to its high ability not to change the original evidence of the suspect.  
+
+The result from the suspect’s USB disk shows that MD5 and SHA1 Hash computed and report hash are the same, which match each other, as shown in the screenshots below:  
+
+- **Computed Hashes**  
+  - MD5 checksum: `ce54a9165bf683be92be36609b4522c4`  
+  - SHA1 checksum: `5b46132244db2e40af0325f55a882f5c92ceffd8`  
+
+- **Image Verification Results**  
+  - MD5 checksum: `ce54a9165bf683be92be36609b4522c4` : verified  
+  - SHA1 checksum: `5b46132244db2e40af0325f55a882f5c92ceffd8` : verified  
+
+This indicates that the USB disk of the suspect was an exact match for the suspect.  
+
+📌 *Screenshot Placeholder:*  
+![Computed Hashes Verification](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/6807a5191c08029146cd08c37e0abdac5e175a9c/Images/Screenshot%202025-09-26%20194427.jpg)
+![Computed Hashes Verification](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/6807a5191c08029146cd08c37e0abdac5e175a9c/Images/Screenshot%202025-09-26%20194520.jpg)
+
+---
+
+#### Viewing the Evidence
+
+After using the FTK imager to verify the MD5 and SHA1 hash value, the **E01 files** were saved to their representative folders to differentiate and make uploading the disk image file easier.  
+
+The disk image file was uploaded to see the inside content of the suspect. Further, the disk image was uploaded successfully, which shows a folder called **Result deleted** with subfolders with content in it. Inside the subfolders, voting result sheets and emails were deleted from the suspect drive. These contents are essential for this investigation.  
+
+📌 *Screenshot Placeholder:*  
+![Deleted Files – Results Folder](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/6807a5191c08029146cd08c37e0abdac5e175a9c/Images/Annotation%202023-07-03%20014835.png)
+
+- **Recovered Evidence:**  
+  - Voting results sheet  
+  - Emails used for communication with accomplices  
+
+📌 *Screenshot Placeholder:*  
+![Recovered Emails Evidence](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/6807a5191c08029146cd08c37e0abdac5e175a9c/Images/Screenshot%202025-09-26%20194912.jpg)
+
+---
+
+#### Analysis of Results
+
+After careful examination of the disk image, the result shows the suspect in question recently deleted two files:  
+
+1. Voting results  
+2. Emails used for communication  
+
+This evidence is important for the court to prosecute the accused.  
+
+📌 *Screenshot Placeholder:*  
+![Recovered Files – Analysis](https://github.com/victormbogu1/Forensic-Examination-Project--Case-Study-Mickins/blob/6807a5191c08029146cd08c37e0abdac5e175a9c/Images/Screenshot%202025-09-26%20195104.jpg)
+
+---
+
+
+**Final Conclusion**  
+The forensic imaging and analysis validated the accuracy and integrity of recovered evidence. The recovered files proved the suspect was guilty of electoral manipulation, with evidence of collaboration with accomplices.  
+
