@@ -73,7 +73,7 @@ This project is designed to illustrate my **hands-on forensic capabilities**, fr
 
 Vicos Construction Company, established in 2013, is a British engineering firm specializing in large-scale bridge construction across the UK and internationally. Recently, an internal election to determine the company’s next chairman raised allegations of **result manipulation** and **evidence tampering**.  
 
-As part of this investigation, the suspected systems—including a **USB device linked to the director in charge**—were submitted for forensic examination to determine whether evidence of fraud and data manipulation could be recovered.  
+As part of this investigation, the suspected systems including a **USB device linked to the director in charge** were submitted for forensic examination to determine whether evidence of fraud and data manipulation could be recovered.  
 
 ---
 
@@ -96,11 +96,10 @@ Vicos Construction recognizes the importance of protecting sensitive business an
 - Staff undergo **continuous training** to stay updated on cybersecurity risks and best practices.  
 - Policies are structured to comply with the **UK Cybersecurity Framework** and **GDPR**.  
 
-To enforce these policies in investigations, digital forensic investigators follow structured responsibilities (see table below).
 
 The following information details the complete investigation procedure for digital evidence at Vericom Forensics UK organization. It encompasses the assigned tasks, their importance, and the steps required to accomplish them (E - council, 2023). 
 
-
+To enforce these policies in investigations, digital forensic investigators follow structured responsibilities (see table below).
 
  ### 1.3 Digital Forensic Investigator's Responsibility
 
