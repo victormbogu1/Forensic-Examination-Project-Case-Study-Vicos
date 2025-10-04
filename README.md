@@ -4,7 +4,9 @@
 
 Developments in the modern world have shown how simple it is to acquire all sorts of information through the use of computers. Social networking services, for example, have become a fundamental element of people’s lives, connecting individuals, sharing updates globally, and providing useful information. Unfortunately, this information can also be exploited for **criminal activity**.  
 
-In response, law enforcement agencies, financial institutions, and private organizations increasingly rely on **computer forensics** to investigate crimes. From **network security breaches** to **fraud** to **illegal digital content**, the common factor is the need to **prove that electronic media contains incriminating evidence**. Supportive forensic examination procedures and protocols must be in place to ensure that evidence is admissible in court.  
+In response, law enforcement agencies, financial institutions, and private organizations increasingly rely on **computer forensics** to investigate crimes. From **network security breaches** to **fraud** to **illegal digital content**, the common factor is the need to **prove that electronic media contains incriminating evidence**. Supportive forensic examination procedures and protocols must be in place to ensure that evidence is admissible in court.
+
+This project demonstrates my deep expertise in conducting comprehensive digital investigations, with the aim of recovering, preserving, and analyzing digital evidence in a forensically sound manner. It highlights my ability to apply structured methodologies, employ appropriate forensic tools, and follow legal and ethical standards throughout the investigation process, ensuring that the evidence collected is reliable, verifiable, and admissible in legal proceedings.
 
 ---
 
