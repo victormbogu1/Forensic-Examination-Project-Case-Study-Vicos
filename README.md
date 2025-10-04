@@ -1,6 +1,6 @@
 # Forensic-Examination-Project – Case Study: Vicos  
 
-## Digital Forensics Case Investigation  
+## Digital Forensics Case Investigation:  
 
 Developments in the modern world have shown how simple it is to acquire all sorts of information through the use of computers. Social networking services, for example, have become a fundamental element of people’s lives, connecting individuals, sharing updates globally, and providing useful information. Unfortunately, this information can also be exploited for **criminal activity**.  
 
@@ -10,7 +10,7 @@ This project demonstrates my deep expertise in conducting comprehensive digital 
 
 ---
 
-### Case Study Role  
+### Case Study Role:  
 
 For this case study, I take the role of a **Digital Forensics Investigator** at **Emburg Forensics UK**, established in 2017.  
 
@@ -27,7 +27,7 @@ My personal specialism in this case study:
 
 ---
 
-### Key Responsibilities  
+### Key Responsibilities:  
 
 As a Digital Forensics Investigator, my responsibilities include:  
 
@@ -56,7 +56,7 @@ As a Digital Forensics Investigator, my responsibilities include:
 
 ---
 
-## 1.0 Case Study Overview  
+### 1.0 Case Study Overview:  
 
 This project is a **digital forensics case study** demonstrating how I, as a **Forensic Investigator**, use professional tools to examine compromised systems, recover deleted evidence, and prepare findings for presentation in court.  
 
@@ -71,7 +71,7 @@ This project is designed to illustrate my **hands-on forensic capabilities**, fr
 
 ---
 
-## 1.1 Introduction  
+### 1.1 Introduction:  
 
 Vicos Construction Company, established in 2013, is a British engineering firm specializing in large-scale bridge construction across the UK and internationally. Recently, an internal election to determine the company’s next chairman raised allegations of **result manipulation** and **evidence tampering**.  
 
@@ -79,7 +79,7 @@ As part of this investigation, the suspected systems including a **USB device li
 
 ---
 
-## 1.2 Purpose of the Report  
+### 1.2 Purpose of the Report:  
 
 The purpose of this case study is to:  
 - Demonstrate the **forensic examination process** using industry-standard tools.  
@@ -89,7 +89,7 @@ The purpose of this case study is to:
 
 ---
 
-## 1.3 IT Security Management Policy at Vicos (Summary)  
+### 1.3 IT Security Management Policy at Vicos (Summary):  
 
 Vicos Construction recognizes the importance of protecting sensitive business and client data. To strengthen its security posture:  
 
@@ -103,7 +103,7 @@ The following information details the complete investigation procedure for digit
 
 To enforce these policies in investigations, digital forensic investigators follow structured responsibilities (see table below).
 
- ### 1.3 Digital Forensic Investigator's Responsibility
+### 1.3 Digital Forensic Investigator's Responsibility:
 
 | Responsibility | Why it is Important | How to Accomplish it |
 |---|---|---|
@@ -122,7 +122,7 @@ To enforce these policies in investigations, digital forensic investigators foll
 > This structured framework demonstrates my **hands-on knowledge and practical experience** as a Digital Forensic Investigator, highlighting my ability to conduct end-to-end forensic investigations in line with professional and legal standards.
 
 
-### Conclusion  
+### Conclusion:  
 
 Understanding the **value of digital evidence** is critical for organizations. Many investigations fail because evidence is either inadequate or improperly handled. By providing Vicos with a clear framework for evidence handling, this case study highlights how organizations can:  
 
@@ -134,7 +134,7 @@ A comprehensive evidence handling process ensures that digital forensics contrib
 
 ---
 
-## 1.4 Case Background  
+### 1.4 Case Background:  
 
 Vicos Construction manager **John Prone** was tasked with overseeing an election among the company’s 120 branches to appoint the next chairman of the board. To improve transparency, the company introduced the **Bimodal Voter Authentication System (BVAS)**, a computerized voting method.  
 
@@ -146,7 +146,7 @@ The suspect’s computer and USB device were seized for forensic examination to 
 
 ---
 
-## 1.5 Tools and Techniques Used  
+### 1.5 Tools and Techniques Used:  
 
 The investigation relied primarily on **AccessData Forensic Toolkit (FTK) Imager 4.7.1**.  
 
@@ -162,7 +162,7 @@ FTK Imager is a widely recognized tool in digital forensics, trusted for its abi
 
 ---
 
-## 1.6 Creating Digital Evidence Forensics  
+### 1.6 Creating Digital Evidence Forensics:  
 
 To successfully pursue this investigation, a **virtual machine** was used to create a safe testing environment, avoiding any modification of the suspect’s host computer. An **external USB drive** was also employed to store forensic images, preventing file corruption and ensuring sufficient storage space.  
 
@@ -176,7 +176,7 @@ This structured approach ensured that all evidence remained intact, verifiable, 
 
 ---
 
-### 1.6 Creating Digital Evidence Forensics – Step by Step
+#### 1.6 Creating Digital Evidence Forensics – Step by Step:
 
 #### Step 1 – Created a virtual machine
 A virtual machine was created to conduct this analysis in a safe environment, ensuring that the suspect’s host computer was not modified or compromised. 
@@ -380,7 +380,7 @@ Having the integrity of evidence is why the above custody chain is vital — it 
 
 ---
 
-### 21 – Details of the Analysis
+### 21 – Details of the Analysis:
 
 During this investigation, the **FTK imaging tool** was used to create a disk image of the file due to its high ability not to change the original evidence of the suspect.  
 
@@ -402,7 +402,7 @@ This indicates that the USB disk of the suspect was an exact match for the suspe
 
 ---
 
-#### Viewing the Evidence
+### Viewing the Evidence:
 
 After using the FTK imager to verify the MD5 and SHA1 hash value, the **E01 files** were saved to their representative folders to differentiate and make uploading the disk image file easier.  
 
@@ -420,7 +420,7 @@ The disk image file was uploaded to see the inside content of the suspect. Furth
 
 ---
 
-#### Analysis of Results
+### Analysis of Results
 
 After careful examination of the disk image, the result shows the suspect in question recently deleted two files:  
 
